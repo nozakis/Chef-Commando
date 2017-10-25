@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: 459110bdf621d374eb51569344c715a6
+  productGUID: 48693e805ffb6eb408bcb45f631ffb9f
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -590,8 +590,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: e8ad876d-e264-4236-8f13-002a98e3bc65
-  projectName: Chef-Commando
+  cloudProjectId: cbf818d6-c427-47ff-99c3-405d357f800d
+  projectName: Chef-Commando (2)
   organizationId: snozak
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
