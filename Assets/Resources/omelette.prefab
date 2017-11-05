@@ -9,55 +9,54 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1538615289369654}
+  m_RootGameObject: {fileID: 1738297530029632}
   m_IsPrefabParent: 1
---- !u!1 &1538615289369654
+--- !u!1 &1738297530029632
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4666275878493296}
-  - component: {fileID: 33339041901593802}
-  - component: {fileID: 23610538274835396}
-  - component: {fileID: 54564906412567238}
-  - component: {fileID: 64928213205484310}
-  - component: {fileID: 114456193169322250}
-  m_Layer: 8
-  m_Name: egg
-  m_TagString: egg
+  - component: {fileID: 4083599631952116}
+  - component: {fileID: 33540601495031150}
+  - component: {fileID: 23057205166493018}
+  - component: {fileID: 54498868905112502}
+  - component: {fileID: 64807054244016120}
+  m_Layer: 0
+  m_Name: omelette
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4666275878493296
+--- !u!4 &4083599631952116
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538615289369654}
+  m_GameObject: {fileID: 1738297530029632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.3654726, y: 0.010721711, z: 5.5054216}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23610538274835396
+--- !u!23 &23057205166493018
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538615289369654}
+  m_GameObject: {fileID: 1738297530029632}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_MotionVectors: 1
+  m_MotionVectors: 0
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7ae03169b57166c4da2b50319076b8bd, type: 2}
+  - {fileID: 2100000, guid: dd4330fb196ead84ea9d14e6bbbe8ed5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -76,19 +75,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33339041901593802
+--- !u!33 &33540601495031150
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538615289369654}
-  m_Mesh: {fileID: 4300000, guid: 214315961896cb246a09ddccf67044d7, type: 3}
---- !u!54 &54564906412567238
+  m_GameObject: {fileID: 1738297530029632}
+  m_Mesh: {fileID: 4300000, guid: 548aff7ba0442794b8a03675e59f574c, type: 3}
+--- !u!54 &54498868905112502
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538615289369654}
+  m_GameObject: {fileID: 1738297530029632}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -98,12 +97,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64928213205484310
+--- !u!64 &64807054244016120
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538615289369654}
+  m_GameObject: {fileID: 1738297530029632}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
@@ -111,18 +110,4 @@ MeshCollider:
   m_Convex: 1
   m_InflateMesh: 0
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 214315961896cb246a09ddccf67044d7, type: 3}
---- !u!114 &114456193169322250
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538615289369654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f09b59770d84f54389f13dff785ce5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupPrefab: {fileID: 1538615289369654}
-  prefabName: egg
-  pickupsRemaining: 5
+  m_Mesh: {fileID: 4300000, guid: 548aff7ba0442794b8a03675e59f574c, type: 3}

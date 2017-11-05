@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114245842455472428}
   m_Layer: 8
   m_Name: ham
-  m_TagString: Untagged
+  m_TagString: ham
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,3 +123,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupPrefab: {fileID: 1318707139954384}
   prefabName: ham
+  pickupsRemaining: 5
