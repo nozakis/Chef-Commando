@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// Modified code from https://unity3d.com/learn/tutorials/projects/survival-shooter/enemy-one?playlist=17144
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
